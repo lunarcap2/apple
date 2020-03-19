@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background: #000;}
+#wrap{width:100%;}
+#header{}
+
+/* banner */
+#banner{width: 100%; overflow: hidden;} 
+#banner img{width: 100%;}
+
+#banner .banner_inner li{color: #fff;}
+#banner .banner_inner a{color:#2997ff;}
+#banner .banner_inner a:hover{text-decoration: underline;}
+
+
+/* contents */
+
+#content1, #content1_tablet, #content1_mobile{width: 100%; overflow: hidden; margin-top: 20px;}
+#content1, #content1_tablet, #content1_mobile img{width: 100%;}
+#content1 h2, #content1_tablet h2, #content1_mobile h2{text-align: center;}
+
+.content2 > div{float: left;}
+#content2_pc img , #content2_tablet img, #content2_mobile img{width: 100%;}
+.content2 > div img{width: 100%;}
+
+#content2_pc , #content2_tablet, #content2_mobile {width: 100%; overflow: hidden; margin-top: 200px;}
+
+.content2 h2{text-align: center;}
+
+
+
+#content2_pc li, #content2_tablet li{position: absolute; color: #000;}
+#content2_pc a, #content2_tablet a, #content2_mobile a{color:#2997ff;}
+#content2_pc a:hover, #content2_tablet a:hover, #content2_mobile a:hover{text-decoration: underline;}
+
+
+#content3 a, #content3_tablet a, #content3_mobile a{color: #2997ff;}
+#content3 a:hover, #content3_tablet a:hover, #content3_mobile a:hover{text-decoration: underline;}

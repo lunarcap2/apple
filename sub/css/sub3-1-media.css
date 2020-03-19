@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*pc (1221 px 부터 보여지는 화면) */
+@media (min-width:1221px) {
+    .banner_inner_tablet, .banner_inner_mobile, #content2_tablet, #content2_mobile, #content1_tablet, #content1_mobile{display: none;}
+    
+    #container{margin:0 auto; width:1200px;}
+    
+    /*banner*/
+    #banner{margin-top: 20px; background: #000;}
+    #banner h2{font-size: 35px; text-align: center; color: #fff; margin-top: 150px;}
+    #banner h2 img{width: 35px; margin-right: 5px;}
+    #banner p{text-align: center; font-size: 30px; color: #fff;}
+    #banner a{color:#2997ff; text-align: center; font-size: 16px; margin-right: 15px; margin-left: 15px;} 
+    
+    #banner h3{text-align: center;}
+    #banner img{width: 80%;}
+    
+    /* content1 */
+    #content1{margin-top: 150px;  color: #fff;}
+    #content1 .cont1_1> h2{font-size: 30px;}
+    #content1 .cont1_1 p{text-align: center; font-size: 50px; font-weight: bold;}
+    #content1 img{margin-top: 50px; width: 100%;}
+    
+    .cont1_2 > div{width: 30%; float: left; margin-right: 1%; margin-left: 2%; margin-top: 10px;}
+    .cont1_2 .cont1_2_inner1{}
+    
+    .cont1_2 ul{text-align: center; margin-top: 20px; line-height: 1.5; margin-bottom: 20px;}
+    .cont1_2 li{color: #aaa; font-size: 18px; font-weight: bold;} 
+    .cont1_2 span{color: #fff; font-size: 40px; font-weight: bold; }
+    .cont1_2 p{clear: both; font-size: 20px; text-align: center;}
+    .cont1_2 a{display: block; color:#ccc; font-size: 15px; background: #333; width: 100px; border: 1px solid #a1a4a9; padding: 10px; margin: 0 auto;}
+    .cont1_2 a:hover{background: #131218; color: #fff; }
+    
+    /* content2 */
+    #content2 > div {float: left; margin-top: 180px;}
+    #content2 > div:first-child{width: 30%; margin-right: 2%; text-align: center; margin-left: 3%;}
+    #content2 > div:nth-child(2){width: 60%; height:800px; margin-top: 260px;}
+    
+    .cont2_2 {}
+    .cont2_2 h3{text-align: center; margin-bottom: 20px; font-size: 30px; color: #fff; }
+    .cont2_2 h2 span{font-size: 55px;}
+    .cont2_2 ul{}
+    .cont2_2 li{text-align: center; padding: 20px; font-size: 20px; box-sizing: border-box; color: #fff;}
+    
+}
+
+
+/*pc (1024 px 부터 보여지는 화면) */
+@media (min-width:1024px) and (max-width:1220px) {
+    .banner_inner_tablet, .banner_inner_mobile, #content2_tablet, #content2_mobile, #content1_tablet, #content1_mobile{display: none;}
+    #container{width: 90%; margin: 0 auto;}
+    
+    /*banner*/
+    #banner{margin-top: 20px; background: #000;}
+    #banner h2{font-size: 33px; text-align: center; color: #fff; margin-top: 150px;}
+    #banner h2 img{width: 32px; margin-right: 5px;}
+    #banner p{text-align: center; font-size: 28px; color: #fff;}
+    #banner a{color:#2997ff; text-align: center; font-size: 16px; margin-right: 15px; margin-left: 15px;} 
+    
+    #banner h3{text-align: center;}
+    #banner img{width: 90%;}
+    
+    
+    /* content1 */
+    #content1{margin-top: 150px;  color: #fff;}
+    #content1 .cont1_1> h2{font-size: 30px;}
+    #content1 .cont1_1 p{text-align: center; font-size: 50px; font-weight: bold;}
+    #content1 img{margin-top: 50px; width: 100%;}
+    
+    .cont1_2 > div{width: 30%; float: left; margin-right: 1%; margin-left: 2%; margin-top: 10px;}
+    .cont1_2 .cont1_2_inner1{}
+    
+    .cont1_2 ul{text-align: center; margin-top: 20px; line-height: 1.5; margin-bottom: 20px;}
+    .cont1_2 li{color: #aaa; font-size: 18px; font-weight: bold;} 
+    .cont1_2 span{color: #fff; font-size: 40px; font-weight: bold; }
+    .cont1_2 p{clear: both; font-size: 20px; text-align: center;}
+    .cont1_2 a{display: block; color:#ccc; font-size: 15px; background: #333; width: 100px; border: 1px solid #a1a4a9; padding: 10px; margin: 0 auto;}
+    .cont1_2 a:hover{background: #131218; color: #fff; }
+    
+    /* content2 */
+    #content2 > div {float: left; margin-top: 180px;}
+    #content2 > div:first-child{width: 30%; margin-right: 2%; text-align: center; margin-left: 3%;}
+    #content2 > div:nth-child(2){width: 60%; height:800px; margin-top: 260px;}
+    
+    .cont2_2 {}
+    .cont2_2 h3{text-align: center; margin-bottom: 20px; font-size: 30px; color: #fff; }
+    .cont2_2 h2 span{font-size: 55px;}
+    .cont2_2 ul{}
+    .cont2_2 li{text-align: center; padding: 20px; font-size: 20px; box-sizing: border-box; color: #fff;}
+    
+    
+  
+}
+
+
+/*tablet (641px 부터 1023px 까지) */
+@media (min-width:641px) and (max-width:1023px) {
+    .banner_inner_pc, .banner_inner_mobile, #content2_pc, #content2_mobile, #content1, #content1_mobile{display: none;}
+    
+    /* container */
+    #container{width: 100%;}
+    
+    
+    /*banner*/
+    #banner{margin-top: 20px; background: #000;}
+    #banner h2{font-size: 28px; text-align: center; color: #fff; margin-top: 130px;}
+    #banner h2 img{width: 27px; margin-right: 3px; position: relative;top: 0px;}
+    #banner p{text-align: center; font-size: 22px; color: #fff; margin-top: 5px;}
+    #banner a{color:#2997ff; text-align: center; font-size: 16px; margin-right: 15px; margin-left: 15px;} 
+    
+    
+    
+    /* content1 */
+    #content1_tablet{margin-top: 150px;  color: #fff;}
+    #content1_tablet .cont1_1> h2{font-size: 23px;}
+    #content1_tablet .cont1_1 p{text-align: center; font-size: 44px; font-weight: bold;}
+    #content1_tablet img{margin-top: 50px; width: 100%;}
+    
+    .cont1_2 > div{width: 30%; float: left; margin-right: 1%; margin-left: 2%; margin-top: 10px;}
+    .cont1_2 .cont1_2_inner1{}
+    
+    .cont1_2 ul{text-align: center; margin-top: 20px; line-height: 1.5; margin-bottom: 40px;}
+    .cont1_2 li{color: #aaa; font-size: 18px; font-weight: bold;} 
+    .cont1_2 span{color: #fff; font-size: 35px; font-weight: bold; }
+    .cont1_2 p{clear: both; font-size: 20px; text-align: center;}
+    .cont1_2 a{display: block; color:#ccc; font-size: 15px; background: #333; width: 100px; border: 1px solid #a1a4a9; padding: 10px; margin: 0px auto;}
+    .cont1_2 a:hover{background: #131218; color: #fff; }
+    
+    /* content2 */
+    #content2 > div {float: left; margin-top: 180px;}
+    #content2 > div:first-child{width: 30%; margin-right: 2%; text-align: center; margin-left: 3%;}
+    #content2 > div:nth-child(2){width: 60%; height:800px; margin-top: 260px;}
+    
+    .cont2_2 {}
+    .cont2_2 h3{text-align: center; margin-bottom: 20px; font-size: 28px; color: #fff; }
+    .cont2_2 ul{}
+    .cont2_2 li{text-align: center; padding: 20px; font-size: 18px; box-sizing: border-box; color: #fff;}
+    
+}
+
+
+/*mobile (640px 까지)*/
+@media (max-width:640px) {
+    .banner_inner_tablet, .banner_inner_pc, #content2_tablet, #content2_pc, #content1_tablet, #content1, #content2{display: none;}
+    
+    /* container */
+    #container{width: 100%;}
+    
+    /*banner*/
+    #banner{margin-top: 20px; background: #000;}
+    #banner h2{font-size: 22px; text-align: center; color: #fff; margin-top: 70px;}
+    #banner h2 img{width: 20px; margin-right: 3px; position: relative;top: 0px;}
+    #banner p{text-align: center; font-size: 18px; color: #fff; margin-top: 5px;}
+    #banner a{color:#2997ff; text-align: center; font-size: 15px; margin-right: 15px; margin-left: 15px;} 
+    
+    
+    /* content1 */
+    #content1_mobile{margin-top: 150px;  color: #fff;}
+    #content1_mobile .cont1_1> h2{font-size: 20px;}
+    #content1_mobile .cont1_1 p{text-align: center; font-size: 32px; font-weight: bold;}
+    #content1_mobile img{margin-top: 50px; width: 100%;}
+    
+    .cont1_2 > div{width: 30%; float: left; margin-right: 1%; margin-left: 2%; margin-top: 10px;}
+    .cont1_2 .cont1_2_inner1{}
+    
+    .cont1_2 ul{text-align: center; margin-top: 20px; line-height: 1.5; margin-bottom: 40px;}
+    .cont1_2 li{color: #aaa; font-size: 16px; font-weight: bold;} 
+    .cont1_2 span{color: #fff; font-size: 28px; font-weight: bold; }
+    .cont1_2 p{clear: both;  text-align: center;}
+    .cont1_2 a{display: block; color:#ccc;  background: #333; width: 100px; border: 1px solid #a1a4a9; padding: 5px; margin: 0px auto; font-size: 13px;}
+    .cont1_2 a:hover{background: #131218; color: #fff; }
+    
+    /* content2 */
+    #content2_mobile > div {float: left; margin-top: 0px;}
+    #content2_mobile > div:first-child{width: 100%; margin-right: 2%; text-align: center;}
+    #content2_mobile > div:nth-child(2){width: 100%; height:800px; margin-top: 60px;}
+    
+    #content2_mobile .cont2_1 img{width: 100%;}
+    .cont2_2 {}
+    .cont2_2 h3{text-align: center; margin-bottom: 20px; font-size: 22px; color: #fff; }
+    .cont2_2 ul{}
+    .cont2_2 li{text-align: center; padding: 20px; font-size: 15px; box-sizing: border-box; color: #fff;}
+}

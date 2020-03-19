@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document*/
+
+#wrap{width:100%;}
+
+/* banner */
+#banner{width: 100%;}
+#banner img{width: 100%;}
+
+
+
+#banner .banner_inner li{color: #fff;}
+#banner .banner_inner a{color:#2997ff;}
+
+
+/* container */
+#container{margin:0 auto;width:90%;}
+
+/* contents  */
+#contents{}
+
+
+/* content1 */
+.content1{width: 100%; overflow: hidden;  margin:35px auto; background: #fafafa;}
+
+.content1 h2{text-align:center;font-size:25px; padding: 20px;}
+#main .flexslider li img{width: 130px; margin-left: 50px; margin-bottom: 20px; box-sizing: border-box;}
+
+/* content2 */
+.content2{width: 100%; overflow: hidden;}
+.content2 img{width: 100%;}
+
+.content2 .content2_inner li{color: #000;}
+.content2 .content2_inner a{color:#2997ff;}
+
+
+
+/* content3 */
+.content3{width: 100%; overflow: hidden;  margin:100px auto 0; background: #fafafa;}
+
+.content3 h2{text-align:center;font-size:25px; padding: 20px;}
+#main2 .flexslider li img{width: 130px; margin-left: 50px; margin-bottom: 20px; box-sizing: border-box;}
+
+
+/* content4  */
+.content4{width: 100%; overflow: hidden; margin: 50px auto;}
+
+.cont4_1 > div {float: left;}
+.cont4_1 img, .cont4_2 img {width: 100%;}
+
+.cont4_2 > div {float: left; margin-top: 10px;}
+
+.cont4_1 li, .cont4_2 li{position: absolute; color: #000;}
+.cont4_1 li a, .cont4_2 li a{color:#2997ff;}
+.cont4_1 a:hover, .cont4_2 a:hover{text-decoration: underline;}
+
+/* content5 */
+.content5{width: 100%;}
+.content5 img{width: 100%;}
+
+.cont5_txt{margin-top: 150px;}
+.cont5_span{font-size: 15px;}
+.cont5_txt2{margin-top: 30px;}
+
+#bookflip{}
+
+/* scroll top */
+/* scroll-status -------------------------------------- */
+.scroll-status {background-color: #000;border-top-left-radius: 4px;bottom: 0;color: #fff;display: none;padding: 10px;position: fixed;right: 0;}
+.scroll-top {display: none;position: fixed;right: 15px;bottom: 50px;width: 40px;height: 40px;line-height: 35px;color: #ffffff;font-size: 20px;text-align: center;background-color:#19191b;border-radius: 10px;z-index: 9999;outline: none;cursor: pointer;}
+
+
+/* sec5 click  */
+.sec5_click{position: absolute; bottom: 200px; left: -310px; display: inline;}
+.cursor_img{width: 6% !important; height: 5% !important;}
+
+
+.cursor_img{animation-name:down; animation-duration: 1.5s; animation-iteration-count: infinite;}
+
+@keyframes down{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(25px);}
+    100%{transform: translateY(0);}
+}

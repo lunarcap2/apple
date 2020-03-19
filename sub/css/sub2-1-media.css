@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*pc (1221 px 부터 보여지는 화면) */
+@media (min-width:1221px) {
+    .banner_inner_tablet, .banner_inner_mobile, #content2_tablet, #content2_mobile, #content1_tablet, #content1_mobile{display: none;}
+    
+    #container{margin:0 auto; width:1200px;}
+    
+    /*banner*/
+    #banner{margin-top: 20px; background: #f2f2f2;}
+    #banner h2{font-size: 35px; text-align: center; color: #000; margin-top: 150px;}
+    #banner h2 img{width: 35px; margin-right: 5px;}
+    #banner p{text-align: center; font-size: 30px;}
+    #banner a{color:#2997ff; text-align: center; font-size: 16px; margin-right: 15px; margin-left: 15px;} 
+    
+    /* content1 */
+    #content1{margin-top: 150px;}
+    #content1 h2{font-size: 30px;}
+    #content1 p{text-align: center; font-size: 50px; font-weight: bold;}
+    #content1 img{margin-top: 50px;}
+    
+     #content1 > div{width: 49.5%; margin-right: 1%; float: left;}
+    #content1 > div:last-child{margin-right: 0;}
+    
+    .cont1_2 {margin-left:25%; margin-top: 50px;}
+    .cont1_2 h2{text-align: center; margin-bottom: 20px; font-size: 20px; margin-top: -20px;}
+    .cont1_2 h2 span{font-size: 55px;}
+    .cont1_2 ul{}
+    .cont1_2 li{text-align: center; border-top: 1px solid #ccc; padding: 16px; font-size: 20px; box-sizing: border-box;}
+    .cont1_2 p{width: 100px; margin-left: 250px; margin-top: 5px;}
+    .cont1_2 a{display: block; color:#ccc; font-size: 15px; background: #333; width: 100px; border: 1px solid #a1a4a9; padding: 10px;}
+    .cont1_2 a:hover{background: #131218; color: #fff;}
+    
+    /* content2 */
+    
+    #content2_pc > div {width: 49.5%; margin-right: 1%; height: 550px;}
+    .content2 h2{font-size: 35px; margin-bottom: 80px;}
+    #content2_pc .cont2_2, #content2_pc .cont2_4{margin-right: 0;}
+    #content2_pc .cont2_1, #content2_pc .cont2_2{margin-bottom: 50px;}
+    
+    /**/
+    .cont2_1{text-align: center;}
+    .cont2_1 h3{font-size: 35px; margin: 40px 0 20px;}
+    .cont2_1 p:nth-child(2){font-size: 20px; color: #555; margin-bottom: 20px;}
+    .cont2_1 p:nth-child(3) a{font-size: 16px; margin-right: 15px; margin-left: 15px;}
+    .cont2_1 img{margin-top: 48px;}
+    
+    .cont2_2{text-align: center;}
+    .cont2_2 h3{font-size: 35px; margin: 40px 0 20px;}
+    .cont2_2 p:nth-child(3){font-size: 20px; color: #555; margin-bottom: 20px;}
+    .cont2_2 p:nth-child(4) a{font-size: 16px; margin-right: 15px; margin-left: 15px;}
+    .cont2_2 img{margin-top: 0px;}
+    
+    .cont2_3{text-align: center;}
+    .cont2_3 h3{font-size: 35px; margin: 40px 0 20px;}
+    .cont2_3 p:nth-child(2){font-size: 20px; color: #555; margin-bottom: 20px;}
+    .cont2_3 p:nth-child(3) a{font-size: 16px; margin-right: 15px; margin-left: 15px;}
+    .cont2_3 img{margin-top: 48px; height: 373px;}
+    
+    .cont2_4{text-align: center;}
+    .cont2_4 h3{font-size: 35px; margin: 40px 0 20px;}
+    .cont2_4 p:nth-child(2){font-size: 20px; color: #555; margin-bottom: 20px;}
+    .cont2_4 p:nth-child(3) a{font-size: 16px; margin-right: 15px; margin-left: 15px;}
+    .cont2_4 img{margin-top: 48px; height: 373px;}
+    
+}
+
+
+/*pc (1024 px 부터 보여지는 화면) */
+@media (min-width:1024px) and (max-width:1220px) {
+    .banner_inner_tablet, .banner_inner_mobile, #content2_tablet, #content2_mobile, #content1_tablet, #content1_mobile{display: none;}
+    #container{width: 90%; margin: 0 auto;}
+    
+    /*banner*/
+    #banner{margin-top: 20px; background: #f2f2f2;}
+    #banner h2{font-size: 32px; text-align: center; color: #000; margin-top: 150px;}
+    #banner h2 img{width: 30px; margin-right: 5px;}
+    #banner p{text-align: center; font-size: 25px;}
+    #banner a{color:#2997ff; text-align: center; font-size: 16px; margin-right: 15px; margin-left: 15px;} 
+    
+    /* content1 */
+    #content1{margin-top: 150px;}
+    #content1 h2{font-size: 28px;}
+    #content1 p{text-align: center; font-size: 45px; font-weight: bold;}
+    #content1 img{margin-top: 50px; width: 100%;}
+    
+    .cont1_2 {margin-left:0%; margin-top: 50px;}
+    .cont1_2 h2{text-align: center; margin-bottom: 20px; font-size: 20px; margin-top: -20px;}
+    .cont1_2 h2 span{font-size: 55px;}
+    .cont1_2 ul{}
+    .cont1_2 li{text-align: center; border-top: 1px solid #ccc; padding: 16px; font-size: 19px; box-sizing: border-box;}
+    .cont1_2 p{width: 100px; margin-left: 45%; margin-top: 5px;}
+    .cont1_2 a{display: block; color:#ccc; font-size: 15px; background: #333; width: 100px; border: 1px solid #a1a4a9; padding: 10px;}
+    .cont1_2 a:hover{background: #131218; color: #fff;}
+    
+    /* content2 */
+    
+    #content2_pc > div {width: 49.5%; margin-right: 1%; height: 550px;}
+    .content2 h2{font-size: 35px; margin-bottom: 80px;}
+    #content2_pc .cont2_2, #content2_pc .cont2_4{margin-right: 0;}
+    #content2_pc .cont2_1, #content2_pc .cont2_2{margin-bottom: 50px;}
+    
+    /**/
+    .cont2_1{text-align: center;}
+    .cont2_1 h3{font-size: 32px; margin: 40px 0 20px;}
+    .cont2_1 p:nth-child(2){font-size: 19px; color: #555; margin-bottom: 20px;}
+    .cont2_1 p:nth-child(3) a{font-size: 16px; margin-right: 15px; margin-left: 15px;}
+    .cont2_1 img{margin-top: 48px;}
+    
+    .cont2_2{text-align: center;}
+    .cont2_2 h3{font-size: 32px; margin: 40px 0 20px;}
+    .cont2_2 p:nth-child(3){font-size: 19px; color: #555; margin-bottom: 20px;}
+    .cont2_2 p:nth-child(4) a{font-size: 16px; margin-right: 15px; margin-left: 15px;}
+    .cont2_2 img{margin-top: 0px;}
+    
+    .cont2_3{text-align: center;}
+    .cont2_3 h3{font-size: 32px; margin: 40px 0 20px;}
+    .cont2_3 p:nth-child(2){font-size: 19px; color: #555; margin-bottom: 20px;}
+    .cont2_3 p:nth-child(3) a{font-size: 16px; margin-right: 15px; margin-left: 15px;}
+    .cont2_3 img{margin-top: 48px; height: 373px;}
+    
+    .cont2_4{text-align: center;}
+    .cont2_4 h3{font-size: 32px; margin: 40px 0 20px;}
+    .cont2_4 p:nth-child(2){font-size: 19px; color: #555; margin-bottom: 20px;}
+    .cont2_4 p:nth-child(3) a{font-size: 16px; margin-right: 15px; margin-left: 15px;}
+    .cont2_4 img{margin-top: 48px; height: 373px;}
+}
+
+
+/*tablet (641px 부터 1023px 까지) */
+@media (min-width:641px) and (max-width:1023px) {
+    .banner_inner_pc, .banner_inner_mobile, #content2_pc, #content2_mobile, #content1, #content1_mobile{display: none;}
+    
+    /* container */
+    #container{width: 100%;}
+    
+    /*banner*/
+    #banner{margin-top: 20px; background: #f2f2f2;}
+    #banner h2{font-size: 28px; text-align: center; color: #000; margin-top: 150px;}
+    #banner h2 img{width: 22px; margin-right: 5px; position: relative; top: 4px;}
+    #banner p{text-align: center; font-size: 22px;}
+    #banner a{color:#2997ff; text-align: center; font-size: 16px; margin-right: 15px; margin-left: 15px;} 
+    
+    
+    /* content1 */
+    #content1_tablet{margin-top: 150px;}
+    #content1_tablet h2{font-size: 25px;}
+    #content1_tablet p{text-align: center; font-size: 39px; font-weight: bold;}
+    #content1_tablet img{margin-top: 50px; width: 100%;}
+    
+    .cont1_2 {margin-left:0%; margin-top: 50px;}
+    .cont1_2 h2{text-align: center; margin-bottom: 20px; font-size: 19px; margin-top: -20px;}
+    .cont1_2 h2 span{font-size: 55px;}
+    .cont1_2 ul{}
+    .cont1_2 li{text-align: center; border-top: 1px solid #ccc; padding: 16px; font-size: 18px; box-sizing: border-box;}
+    .cont1_2 p{width: 100px; margin-left: 45%; margin-top: 5px;}
+    .cont1_2 a{display: block; color:#ccc; font-size: 15px; background: #333; width: 100px; border: 1px solid #a1a4a9; padding: 10px;}
+    .cont1_2 a:hover{background: #131218; color: #fff;}
+    
+    
+    /* content2 */
+    
+    #content2_tablet > div {width: 49.5%; margin-right: 1%; height: 550px;}
+    .content2 h2{font-size: 30px; margin-bottom: 60px;}
+    #content2_tablet .cont2_2, #content2_tablet .cont2_4{margin-right: 0;}
+    #content2_tablet .cont2_1, #content2_tablet .cont2_2{margin-bottom: 20px;}
+    
+    /**/
+    .cont2_1{text-align: center;}
+    .cont2_1 h3{font-size: 29px; margin: 40px 0 20px;}
+    .cont2_1 p:nth-child(2){font-size: 18px; color: #555; margin-bottom: 20px;}
+    .cont2_1 p:nth-child(3) a{font-size: 15px; margin-right: 15px; margin-left: 15px;}
+    .cont2_1 img{margin-top: 48px;}
+    
+    .cont2_2{text-align: center;}
+    .cont2_2 h3{font-size: 29px; margin: 40px 0 20px;}
+    .cont2_2 p:nth-child(3){font-size: 18px; color: #555; margin-bottom: 20px;}
+    .cont2_2 p:nth-child(4) a{font-size: 15px; margin-right: 15px; margin-left: 15px;}
+    .cont2_2 img{margin-top: 0px;}
+    
+    .cont2_3{text-align: center;}
+    .cont2_3 h3{font-size: 29px; margin: 40px 0 20px;}
+    .cont2_3 p:nth-child(2){font-size: 18px; color: #555; margin-bottom: 20px;}
+    .cont2_3 p:nth-child(3) a{font-size: 15px; margin-right: 15px; margin-left: 15px;}
+    .cont2_3 img{margin-top: 48px; height: 373px;}
+    
+    .cont2_4{text-align: center;}
+    .cont2_4 h3{font-size: 29px; margin: 40px 0 20px;}
+    .cont2_4 p:nth-child(2){font-size: 18px; color: #555; margin-bottom: 20px;}
+    .cont2_4 p:nth-child(3) a{font-size: 15px; margin-right: 15px; margin-left: 15px;}
+    .cont2_4 img{margin-top: 48px; height: 373px;}
+}
+
+
+/*mobile (640px 까지)*/
+@media (max-width:640px) {
+    .banner_inner_tablet, .banner_inner_pc, #content2_tablet, #content2_pc, #content1_tablet, #content1{display: none;}
+    
+    /* container */
+    #container{width: 100%;}
+    
+    /*banner*/
+    #banner{margin-top: 40px; background: #f2f2f2;}
+    #banner h2{font-size: 22px; text-align: center; color: #000; margin-top: 70px;}
+    #banner h2 img{width: 20px; margin-right: 5px; position: relative; top: 4px;}
+    #banner p{text-align: center; font-size: 18px; line-height: 2;}
+    #banner a{color:#2997ff; text-align: center; font-size: 14px; margin-right: 15px; margin-left: 15px;} 
+    
+    
+    /* content1 */
+    #content1_mobile{margin-top: 150px;}
+    #content1_mobile h2{font-size: 19px;}
+    #content1_mobile p{text-align: center; font-size: 26px; font-weight: bold;}
+    #content1_mobile img{margin-top: 50px; width: 100%;}
+    
+    .cont1_2 {margin-left:0%; margin-top: 50px;}
+    .cont1_2 h2{text-align: center; margin-bottom: 20px; font-size: 19px; margin-top: -20px;}
+    .cont1_2 h2 span{font-size: 55px;}
+    .cont1_2 ul{}
+    .cont1_2 li{text-align: center; border-top: 1px solid #ccc; padding: 16px; font-size: 15px; box-sizing: border-box;}
+    .cont1_2 p{width: 100px; margin-left: 40%; margin-top: 5px;}
+    .cont1_2 a{display: block; color:#ccc; font-size: 14px; background: #333; width: 100px; border: 1px solid #a1a4a9; padding: 5px;}
+    .cont1_2 a:hover{background: #131218; color: #fff;}
+    
+    
+    /* content2 */
+    
+    #content2_mobile > div {width: 100%; height: 495px; margin-bottom: 80px; background: #f2efef}
+    .content2 h2{font-size: 25px; margin-bottom: 30px;}
+    #content2_mobile .cont2_4{margin-bottom: 50px;}
+
+    
+    /**/
+    .cont2_1{text-align: center;}
+    .cont2_1 h3{font-size: 24px; margin: 40px 0 20px;}
+    .cont2_1 p:nth-child(2){font-size: 17px; color: #555; margin-bottom: 20px;}
+    .cont2_1 p:nth-child(3) a{font-size: 15px; margin-right: 15px; margin-left: 15px;}
+    .cont2_1 img{margin-top: 48px;}
+    
+    .cont2_2{text-align: center;}
+    .cont2_2 h3{font-size: 24px; margin: 40px 0 20px;}
+    .cont2_2 p:nth-child(2){font-size: 17px; color: #555; margin-bottom: 20px;}
+    .cont2_2 p:nth-child(3) a{font-size: 15px; margin-right: 15px; margin-left: 15px;}
+    .cont2_2 img{margin-top: 48px; height: 269px;}
+    
+    .cont2_3{text-align: center;}
+    .cont2_3 h3{font-size: 24px; margin: 40px 0 20px;}
+    .cont2_3 p:nth-child(2){font-size: 17px; color: #555; margin-bottom: 20px;}
+    .cont2_3 p:nth-child(3) a{font-size: 15px; margin-right: 15px; margin-left: 15px;}
+    .cont2_3 img{margin-top: 48px; height: 269px;}
+    
+    .cont2_4{text-align: center;}
+    .cont2_4 h3{font-size: 24px; margin: 40px 0 20px;}
+    .cont2_4 p:nth-child(2){font-size: 17px; color: #555; margin-bottom: 20px;}
+    .cont2_4 p:nth-child(3) a{font-size: 15px; margin-right: 15px; margin-left: 15px;}
+    .cont2_4 img{margin-top: 48px; height: 269px;}
+}
